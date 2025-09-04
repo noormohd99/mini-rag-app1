@@ -1,0 +1,22 @@
+# **mini-rag-app**
+
+A minimal implementation of a RAG model for Question Answering.
+
+## Requirements
+
+- Python 3.8 or later
+
+## Install Python using Miniconda
+
+1. **Download and install Miniconda:**  
+    [Miniconda Download (Linux x86_64)](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh)
+
+2. **Create a new environment:**
+    ```bash
+    conda create -n mini-rag python=3.10
+    ```
+
+3. **Activate the environment:**
+    ```bash
+    conda activate mini-rag
+    ```
