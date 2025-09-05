@@ -25,3 +25,25 @@ A minimal implementation of a RAG model for Question Answering.
 ```bash
 export PS1="\[\033[01;32m\]\u@\h:\w\n\[\033[00m\]\$ "
 ```
+## Installation
+
+1. **Install the required packages:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2. **Set up environment variables:**
+    ```bash
+    cp .env.example .env
+    ```
+    Edit the `.env` file to set your environment variables, such as `OPENAI_API_KEY`.
+
+3. **Run Alembic migrations:**
+    ```bash
+    alembic upgrade head
+    ```
+
+## Run the FastAPI server
+     ```bash
+    $ uvicorn main:app --reload --host 0.0.0.0 --port 5000
+    ```
